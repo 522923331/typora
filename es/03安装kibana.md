@@ -16,15 +16,15 @@ http server running at http://localhost:5601
 
 然后访问 http://localhost:5601
 
-<img src="/Users/yp-23040708/Library/Application Support/typora-user-images/截屏2023-04-24 19.34.59.png" alt="截屏2023-04-24 19.34.59" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/522923331/typora-image/img/%E6%88%AA%E5%B1%8F2023-04-24%2019.34.59.png" alt="截屏2023-04-24 19.34.59" style="zoom:50%;" />
 
 # 2.kibana开发工具
 
 home菜单栏，management目录下，dev Tools:
 
-![截屏2023-04-24 19.38.05](/Users/yp-23040708/Library/Application Support/typora-user-images/截屏2023-04-24 19.38.05.png)
+![截屏2023-04-24 19.38.05](https://cdn.jsdelivr.net/gh/522923331/typora-image/img/%E6%88%AA%E5%B1%8F2023-04-24%2019.38.05.png)
 
-![截屏2023-04-24 20.05.58](/Users/yp-23040708/Library/Application Support/typora-user-images/截屏2023-04-24 20.05.58.png)
+![截屏2023-04-24 20.05.58](https://cdn.jsdelivr.net/gh/522923331/typora-image/img/%E6%88%AA%E5%B1%8F2023-04-24%2020.05.58.png)
 
 输入 GET /.kibana_8.7.0_001
 

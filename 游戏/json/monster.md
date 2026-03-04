@@ -1,0 +1,166 @@
+```json
+[
+  {
+    "id":3001,
+    "name":"野狼",
+    "level":3,
+    "hp":150,
+    "atk":20,
+    "def":5,
+    "exp":30,
+    "drop_table":[
+      {"type":"item","id":2001,"name":"小型血瓶","drop_rate":50},
+      {"type":"item","id":2101,"name":"铁矿石","drop_rate":30},
+      {"type":"gold","amount":10,"drop_rate":100}
+    ],
+    "spawn_point":{"x":5,"y":0,"z":10}
+  },
+  {
+    "id":3002,
+    "name":"森林蝎子",
+    "level":5,
+    "hp":200,
+    "atk":25,
+    "def":8,
+    "exp":50,
+    "drop_table":[
+      {"type":"item","id":2002,"name":"中型血瓶","drop_rate":40},
+      {"type":"item","id":2102,"name":"青铜矿石","drop_rate":25},
+      {"type":"gold","amount":20,"drop_rate":100}
+    ],
+    "spawn_point":{"x":10,"y":0,"z":15}
+  },
+  {
+    "id":3003,
+    "name":"洞穴巨鼠",
+    "level":2,
+    "hp":80,
+    "atk":10,
+    "def":2,
+    "exp":15,
+    "drop_table":[
+      {"type":"item","id":2001,"name":"小型血瓶","drop_rate":60},
+      {"type":"gold","amount":5,"drop_rate":100}
+    ],
+    "spawn_point":{"x":2,"y":0,"z":8}
+  },
+  {
+    "id":3004,
+    "name":"森林精灵",
+    "level":7,
+    "hp":250,
+    "atk":30,
+    "def":10,
+    "exp":80,
+    "drop_table":[
+      {"type":"item","id":2003,"name":"大型血瓶","drop_rate":30},
+      {"type":"item","id":2103,"name":"魔力水晶","drop_rate":20},
+      {"type":"gold","amount":30,"drop_rate":100}
+    ],
+    "spawn_point":{"x":12,"y":0,"z":18}
+  },
+  {
+    "id":3005,
+    "name":"精英巨狼",
+    "level":10,
+    "hp":500,
+    "atk":50,
+    "def":20,
+    "exp":200,
+    "drop_table":[
+      {"type":"item","id":1002,"name":"寒冰长剑","drop_rate":15},
+      {"type":"item","id":2003,"name":"大型血瓶","drop_rate":50},
+      {"type":"gold","amount":100,"drop_rate":100}
+    ],
+    "spawn_point":{"x":20,"y":0,"z":25}
+  },
+  {
+    "id":3006,
+    "name":"地狱魔蝎",
+    "level":12,
+    "hp":600,
+    "atk":60,
+    "def":25,
+    "exp":250,
+    "drop_table":[
+      {"type":"item","id":1003,"name":"新手铁剑","drop_rate":20},
+      {"type":"item","id":2104,"name":"红色宝石","drop_rate":30},
+      {"type":"gold","amount":150,"drop_rate":100}
+    ],
+    "spawn_point":{"x":25,"y":0,"z":30}
+  },
+  {
+    "id":3007,
+    "name":"森林巨熊",
+    "level":15,
+    "hp":1000,
+    "atk":80,
+    "def":40,
+    "exp":500,
+    "drop_table":[
+      {"type":"item","id":1004,"name":"狂风长剑","drop_rate":10},
+      {"type":"item","id":2105,"name":"蓝色宝石","drop_rate":25},
+      {"type":"gold","amount":300,"drop_rate":100}
+    ],
+    "spawn_point":{"x":30,"y":0,"z":35}
+  },
+  {
+    "id":3008,
+    "name":"火焰恶魔",
+    "level":20,
+    "hp":1500,
+    "atk":120,
+    "def":60,
+    "exp":800,
+    "drop_table":[
+      {"type":"item","id":1005,"name":"雷霆巨剑","drop_rate":5},
+      {"type":"item","id":2403,"name":"龙鳞","drop_rate":10},
+      {"type":"gold","amount":500,"drop_rate":100}
+    ],
+    "spawn_point":{"x":40,"y":0,"z":50}
+  },
+  {
+    "id":3009,
+    "name":"森林魔狼",
+    "level":8,
+    "hp":350,
+    "atk":40,
+    "def":15,
+    "exp":150,
+    "drop_table":[
+      {"type":"item","id":1001,"name":"烈焰短剑","drop_rate":15},
+      {"type":"item","id":2002,"name":"中型血瓶","drop_rate":50},
+      {"type":"gold","amount":50,"drop_rate":100}
+    ],
+    "spawn_point":{"x":15,"y":0,"z":20}
+  },
+  {
+    "id":3010,
+    "name":"暗影刺客",
+    "level":18,
+    "hp":1200,
+    "atk":100,
+    "def":50,
+    "exp":700,
+    "drop_table":[
+      {"type":"item","id":1004,"name":"狂风长剑","drop_rate":10},
+      {"type":"item","id":2301,"name":"力量药水","drop_rate":30},
+      {"type":"gold","amount":400,"drop_rate":100}
+    ],
+    "spawn_point":{"x":35,"y":0,"z":45}
+  }
+]
+
+```
+
+**说明**：
+
+1. `drop_table`：
+   - `type`：掉落类型（装备 `item` / 金币 `gold` / 道具 `item`）
+   - `id`：对应前面生成的装备或道具 ID
+   - `drop_rate`：掉落概率百分比（0-100）
+2. `spawn_point`：怪物刷新坐标（可用于 Unity 地图定位）
+3. 可直接在 Unity 的 **怪物生成脚本**中解析 JSON，实现刷怪掉落机制。
+
+
+
